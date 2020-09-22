@@ -53,7 +53,7 @@ PW: test222222
 ### プラン詳細画面機能
 #### :pushpin:Function
 プランの内容および詳細を表示  
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 『プラン名/マリンアクティビティ/日時/場所』以外にも、プラン当日の大まかな流れや利用ショップ、主催者の情報の掲載ができる
 #### :books:Story
 - プランの詳細『プラン名/マリンアクティビティ/日時/場所』以外にも、プラン当日の大まかな流れや利用ショップ、主催者の情報（マイページ）を確認できる。
@@ -61,7 +61,7 @@ PW: test222222
 ### プラン一覧表示
 #### :pushpin:Function
 新着のプランを表示可能にする
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 トップページに、新着のプランを表示させ、どんなプランが予定されているのかを知らせる
 #### :books:Story
 - プランは数点開催予定されていることが前提
@@ -70,7 +70,7 @@ PW: test222222
 ### プランログ機能
 #### :pushpin:Function
 プランが実施されたことを証明ならびに記録
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 写真を掲載し、どんなプランであったかを記録することができる
 #### :books:Story
 - 実際にプランが開催されたとしても、ログを残すかは任意
@@ -81,15 +81,15 @@ PW: test222222
 ### マイページ編集機能
 #### :pushpin:Function
 登録したユーザー情報を更新する
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 登録済みのユーザー情報を変更可能にする
 #### :books:Story
-・登録済みのユーザー情報（アイコン・住所等）を更新できる
+- 登録済みのユーザー情報（アイコン・住所等）を更新できる
 -------
 ### SNS認証
 #### :pushpin:Function
 ユーザーアカウント登録方法の選択肢を増やす  
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 SNSアカウント（Googleアカウント、Facabookアカウント）を利用したログイン方法を選択肢として追加する
 #### :books:Story
 - ユーザーアカウントの登録方法を「手打ち入力」「Googleアカウントを利用」「Facabookアカウントを利用」の3つから選べるようにする
@@ -98,7 +98,7 @@ SNSアカウント（Googleアカウント、Facabookアカウント）を利用
 ### プラン編集機能
 #### :pushpin:Function
 プランを編集可能にする  
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 プランに変更があった、もしくはヒューマンエラーによるタイプミス等があった場合、内容を修正ならびに変更を可能にする
 #### :books:Story
 - プラン詳細画面より、内容に変更、修正ができる
@@ -106,7 +106,7 @@ SNSアカウント（Googleアカウント、Facabookアカウント）を利用
 ### プラン削除機能
 #### :pushpin:Function
 プランを削除可能にする  
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 主催者のみがプランの削除が可能。但し問題点として、主催者が闇雲にイベントを削除できてしまうと、トラブルになりかねない為、この機能を付けるべきかは迷うところ
 #### :books:Story
 - プラン詳細画面より、プランを削除できる
@@ -114,14 +114,15 @@ SNSアカウント（Googleアカウント、Facabookアカウント）を利用
 ### コメント機能
 #### :pushpin:Function
 ユーザー同士がオープンかつカジュアルにコミュニケーションを取る  
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 主催者とプランに興味を持ったユーザーが、プラン詳細画面上で、連絡を取ることが可能
+#### :books:Story
 - 主催者とプランに興味を持ったユーザーが、プラン詳細画面上で、掲示板形式で連絡を取る
 -------
 ### 参加表明ボタン機能
 #### :pushpin:Function
 参加表明を手軽に、だけど曖昧にしない  
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 SNSによくある『いいねボタン』を応用し、参加表明の簡略化を可能にする
 #### :books:Story
 - SNSによくある『いいねボタン』同様、ただクリックするだけ
@@ -129,7 +130,7 @@ SNSによくある『いいねボタン』を応用し、参加表明の簡略�
 ### DM機能
 #### :pushpin:Function
 主催者と参加表明をした参加者が、オープンにはできない個別具体的な連絡を取る  
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 主催者と参加表明をした参加者が、直接的に連絡を取ることが可能
 #### :books:Story
 - 主催者と参加表明をした参加者が、直接的にリアルタイムチャットにて連絡を取り合うことができる
@@ -137,7 +138,7 @@ SNSによくある『いいねボタン』を応用し、参加表明の簡略�
 ### プラン募集終了機能
 #### :pushpin:Function
 視覚的にプランの参加募集終了している旨を知らせる  
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 視覚的にプランの参加募集終了している旨を知らせることを可能にする
 #### :books:Story
 - プラン編集画面にて、プラン募集終了ボタンをクリックすると、プラン募集終了である旨が表示される
@@ -145,7 +146,7 @@ SNSによくある『いいねボタン』を応用し、参加表明の簡略�
 ### プラン終了機能
 #### :pushpin:Function
 プラン開催日時を迎えると、視覚的にそれが終了している旨を知らせる  
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 プラン開催日時を迎えると、視覚的にそれが終了している旨を知らせることを可能にする
 #### :books:Story
 - 可能であれば、プラン開催日時を迎えると、自動的にそれが終了している旨を知らせる
@@ -153,7 +154,7 @@ SNSによくある『いいねボタン』を応用し、参加表明の簡略�
 ### 検索機能
 #### :pushpin:Function
 ユーザーが簡単にデータ検索出来るようにする  
-#### :clipboard:Purpose
+#### :pencil2:Purpose
 複数条件を指定した上でマリンアクティビティやイベントの検索を可能にする
 #### :books:Story
 - プランは数点開催予定されていることが前提
@@ -223,7 +224,7 @@ SNSによくある『いいねボタン』を応用し、参加表明の簡略�
 ### Ruby version
 ruby 2.6.5  
 ### Please Execute Following Commands
-`% git clone https://github.com/we-b/umiau.git`  
+% git clone https://github.com/we-b/umiau.git  
 % cd umiau  
 % bundle install  
 % yarn install  
