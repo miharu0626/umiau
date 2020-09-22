@@ -179,3 +179,4 @@ ruby 2.6.5
 % yarn install  
 % rails db:create  
 % rails db:migrate  
+
