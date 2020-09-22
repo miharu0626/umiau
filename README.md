@@ -49,6 +49,7 @@ https://umiau.herokuapp.com/
 - has_many :logs
 - belongs_to_active_hash :genre
 
+
 ### plans table
 
 | Column             | Type       | Options                        |
@@ -67,6 +68,7 @@ https://umiau.herokuapp.com/
 - has_one :logs
 - belongs_to_active_hash :genre
 - belongs_to_active_hash :location
+
 
 ### logs table
 
