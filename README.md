@@ -1,5 +1,5 @@
-## App Name
-![UmiAu](app / assets / images / UmiAu logo-colored-S.ping)
+`## App Name`
+![UmiAu](https://umiau.herokuapp.com/app/assets/images/UmiAu_logo-colored-S.ping)
 
 ## Outline and Origin of This App Name
 Surprisingly, there are girls who get a diving license alone or start taking class of surf school alone.
@@ -23,11 +23,11 @@ Issho ni tanoshii omoide wo **UmiAu**.
 海が大好き女子の為のアプリ。
 
 
-## App URL
+`## App URL`
 https://umiau.herokuapp.com/
 
-## Tables
-### users table
+`## Tables`
+## users table
 
 | Column             | Type    | Options     |
 | ------------------ | ------- | ----------- |
