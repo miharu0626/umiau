@@ -1,9 +1,7 @@
-# README
-
 ## App Name
-UmiAu
+![UmiAu](app / assets / images / UmiAu logo-colored-S.ping)
 
-## Outline and origin of this app name
+## Outline and Origin of This App Name
 Surprisingly, there are girls who get a diving license alone or start taking class of surf school alone.
 They could get along with someone there, but in reality through it's not easy.
 Wanna enjoy with friends who likes to enjoy beach life.
@@ -11,11 +9,11 @@ Wanna share my own memories on the beach.
 App for girls who likes to enjoy beach life. 
 
 Meeting on the beach.
-Umi de Au.
+**Umi** de **Au**.
 海で会う。
 
 Creating fun memories together.
-Issho ni tanoshii omoide wo UmiAu.
+Issho ni tanoshii omoide wo **UmiAu**.
 一緒に楽しい思い出を生み合う。
 
 一人でダイビングのライセンスを取ったり、一人でサーフスクールに通い始める女子が意外といる。
@@ -65,10 +63,10 @@ https://umiau.herokuapp.com/
 | detail             | text       | null: false                    |
 
 ### Association
-belongs_to :users
-has_one :logs
-belongs_to_active_hash :genre
-belongs_to_active_hash :location
+- belongs_to :users
+- has_one :logs
+- belongs_to_active_hash :genre
+- belongs_to_active_hash :location
 
 ## logs table
 
@@ -80,5 +78,5 @@ belongs_to_active_hash :location
 | note               | text       | null: false                    |
 
 ### Association
-belongs_to :users
-belongs_to :plans
+- belongs_to :users
+- belongs_to :plans
